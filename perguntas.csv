@@ -1,0 +1,151 @@
+pergunta,resposta,exemplo
+Torne a pasta 'dados' acessível apenas ao dono.,chmod 700 dados,chmod *** dados
+Mude o dono da pasta 'backup' para root.,chown root backup,chown **** backup
+Permita apenas leitura para o dono no arquivo 'segredo.txt'.,chmod 400 segredo.txt,chmod *** segredo.txt
+Remova a permissão de execução para outros em 'script.sh'.,chmod o-x script.sh,chmod *-* script.sh
+Remova todas as permissões de 'arquivo.txt'.,chmod 000 arquivo.txt,chmod *** arquivo.txt
+Adicione permissão de escrita para o dono em 'dados.csv'.,chmod u+w dados.csv,chmod *+* dados.csv
+Torne o arquivo 'segredo.sh' executável apenas para o dono.,chmod 700 segredo.sh,chmod *** segredo.sh
+Permita execução a todos no script 'start.sh'.,chmod +x start.sh,chmod +* start.sh
+O grupo deve poder executar o programa 'runme'.,chmod g+x runme,chmod *+* runme
+Permita leitura para todos no arquivo 'readme.md'.,chmod a+r readme.md,chmod *+* readme.md
+Adicione permissão de execução ao grupo no diretório 'scripts'.,chmod g+x scripts,chmod *+* scripts
+Apenas outros devem poder ler 'aviso.txt'.,chmod 004 aviso.txt,chmod *** aviso.txt
+Dê permissão 755 ao diretório 'app'.,chmod 755 app,chmod *** app
+Apenas o grupo pode ler e executar 'menu.sh'.,chmod 050 menu.sh,chmod *** menu.sh
+Remova a permissão de escrita do dono em 'protecao.txt'.,chmod u-w protecao.txt,chmod *-* protecao.txt
+Troque o dono do script 'deploy.sh' para 'admin'.,chown admin deploy.sh,chown ***** deploy.sh
+Conceda leitura e execução para grupo e outros em 'site/'.,chmod go+rx site/,chmod **+** site/
+O dono deve poder ler e escrever em 'relatorio.csv'.,chmod u+rw relatorio.csv,chmod *+** relatorio.csv
+O grupo não deve executar 'install.sh'.,chmod g-x install.sh,chmod *-* install.sh
+Permita execução apenas ao grupo no programa 'verifica'.,chmod 010 verifica,chmod *** verifica
+Conceda 600 ao arquivo 'secreto.key'.,chmod 600 secreto.key,chmod *** secreto.key
+Permita que todos leiam e escrevam em 'temp.log'.,chmod 666 temp.log,chmod *** temp.log
+Mude o dono do diretório 'backup' para o usuário 'backupuser'.,chown backupuser backup,chown ******** backup
+Remova permissão de leitura do grupo em 'confidencial.txt'.,chmod g-r confidencial.txt,chmod *-* confidencial.txt
+Dê permissão de escrita ao grupo em 'dados.csv'.,chmod g+w dados.csv,chmod *+* dados.csv
+Remova permissão de escrita para outros em 'script.sh'.,chmod o-w script.sh,chmod *-* script.sh
+Conceda permissão de execução ao dono e grupo em 'deploy.sh'.,chmod ug+x deploy.sh,chmod **+* deploy.sh
+O dono deve ter permissão total e os outros nenhuma em 'segredo.db'.,chmod 700 segredo.db,chmod *** segredo.db
+Mude o dono e grupo do arquivo 'config.cfg' para 'admin'.,chown admin:admin config.cfg,chown ******:****** config.cfg
+Permita leitura e execução para todos em 'publico'.,chmod a+rx publico,chmod *+** publico
+Remova permissão de execução para todos em 'script.sh'.,chmod a-x script.sh,chmod *-* script.sh
+Adicione permissão de leitura ao grupo e outros em 'notas.txt'.,chmod go+r notas.txt,chmod **+* notas.txt
+Apenas o dono pode executar 'runme'.,chmod 100 runme,chmod *** runme
+Dê permissão 644 ao arquivo 'index.html'.,chmod 644 index.html,chmod *** index.html
+Permita que o grupo escreva em 'relatorio.txt'.,chmod g+w relatorio.txt,chmod *+* relatorio.txt
+Remova todas as permissões de grupo e outros em 'dados.bak'.,chmod go-rwx dados.bak,chmod **-*** dados.bak
+Adicione permissão de execução para todos em 'script.sh'.,chmod a+x script.sh,chmod *+* script.sh
+Mude o dono do arquivo 'segredo.txt' para root.,chown root segredo.txt,chown **** segredo.txt
+Permita apenas leitura para o dono e grupo em 'dados.csv'.,chmod 440 dados.csv,chmod *** dados.csv
+Conceda permissão de escrita ao dono e grupo em 'arquivo.log'.,chmod 660 arquivo.log,chmod *** arquivo.log
+Remova permissão de leitura para outros em 'confidencial.doc'.,chmod o-r confidencial.doc,chmod *-* confidencial.doc
+O grupo deve poder ler 'manual.pdf'.,chmod g+r manual.pdf,chmod *+* manual.pdf
+Permita execução para o dono no arquivo 'run.sh'.,chmod u+x run.sh,chmod *+* run.sh
+Dê permissão 777 para 'publico'.,chmod 777 publico,chmod *** publico
+Mude o grupo do arquivo 'dados.csv' para 'users'.,chgrp users dados.csv,chgrp ***** dados.csv
+Remova permissão de escrita para o grupo em 'relatorio.txt'.,chmod g-w relatorio.txt,chmod *-* relatorio.txt
+Adicione permissão de leitura para o dono em 'secreto.key'.,chmod u+r secreto.key,chmod *+* secreto.key
+O dono deve poder ler, escrever e executar 'script.sh'.,chmod u+rwx script.sh,chmod *+*** script.sh
+Permita leitura e execução para o grupo em 'bin'.,chmod g+rx bin,chmod *+** bin
+Remova permissão de escrita para outros em 'dados.txt'.,chmod o-w dados.txt,chmod *-* dados.txt
+Adicione permissão de leitura para todos em 'arquivo.txt'.,chmod a+r arquivo.txt,chmod *+* arquivo.txt
+Mude o dono e grupo do diretório 'docs' para 'admin'.,chown admin:admin docs,chown ******:****** docs
+Permita que o grupo execute 'start.sh'.,chmod g+x start.sh,chmod *+* start.sh
+Remova permissão de execução do dono em 'script.sh'.,chmod u-x script.sh,chmod *-* script.sh
+Dê permissão 640 para 'config.cfg'.,chmod 640 config.cfg,chmod *** config.cfg
+Conceda permissão total para o dono em 'backup.tar'.,chmod 700 backup.tar,chmod *** backup.tar
+Mude o grupo do arquivo 'log.txt' para 'admins'.,chgrp admins log.txt,chgrp ****** log.txt
+Permita escrita para todos em 'temp.txt'.,chmod a+w temp.txt,chmod *+* temp.txt
+Remova todas as permissões para outros em 'dados.db'.,chmod o-rwx dados.db,chmod *-*** dados.db
+Apenas o dono pode ler 'secret.txt'.,chmod 400 secret.txt,chmod *** secret.txt
+Permita execução para todos em 'run.sh'.,chmod a+x run.sh,chmod *+* run.sh
+Dê permissão 755 para o diretório 'scripts'.,chmod 755 scripts,chmod *** scripts
+Remova permissão de escrita para o dono em 'readme.md'.,chmod u-w readme.md,chmod *-* readme.md
+Adicione permissão de leitura e escrita para o dono em 'file.txt'.,chmod u+rw file.txt,chmod *+** file.txt
+O grupo deve ter permissão total em 'dados'.,chmod g+rwx dados,chmod *+*** dados
+Permita que o dono e grupo leiam 'config.ini'.,chmod ug+r config.ini,chmod **+* config.ini
+Mude o dono do arquivo 'script.sh' para 'root'.,chown root script.sh,chown **** script.sh
+Remova permissão de execução para outros em 'start.sh'.,chmod o-x start.sh,chmod *-* start.sh
+Conceda permissão 644 para 'index.php'.,chmod 644 index.php,chmod *** index.php
+Dê permissão total para dono e grupo em 'dados.csv'.,chmod 770 dados.csv,chmod *** dados.csv
+Permita que apenas o dono escreva em 'log.txt'.,chmod 600 log.txt,chmod *** log.txt
+Conceda escrita para o dono em 'run.sh'.,chmod u+w run.sh,chmod *+* run.sh
+Mude o dono de 'musica.mp3' para 'maria'.,chown maria musica.mp3,chown *** musica.mp3
+Conceda execução para outros em 'musica.mp3'.,chmod o+x musica.mp3,chmod *+* musica.mp3
+Conceda escrita para todos em 'video.mp4'.,chmod a+w video.mp4,chmod *+* video.mp4
+Mude o dono de 'config.cfg' para 'teste'.,chown teste config.cfg,chown *** config.cfg
+Conceda leitura para todos em 'imagem.png'.,chmod a+r imagem.png,chmod *+* imagem.png
+Mude o grupo do arquivo 'tabela.xlsx' para 'grupo2'.,chgrp grupo2 tabela.xlsx,chgrp *** tabela.xlsx
+Conceda execução para o grupo em 'main.c'.,chmod g+x main.c,chmod *+* main.c
+Conceda leitura para o grupo em 'programa.exe'.,chmod g+r programa.exe,chmod *+* programa.exe
+Conceda leitura para o dono em 'dados.csv'.,chmod u+r dados.csv,chmod *+* dados.csv
+Conceda escrita para outros em 'video.mp4'.,chmod o+w video.mp4,chmod *+* video.mp4
+Conceda execução para o dono em 'index.html'.,chmod u+x index.html,chmod *+* index.html
+Mude o dono de 'script.py' para 'lucas'.,chown lucas script.py,chown *** script.py
+Conceda leitura para o grupo em 'relatorio.doc'.,chmod g+r relatorio.doc,chmod *+* relatorio.doc
+Conceda execução para todos em 'musica.mp3'.,chmod a+x musica.mp3,chmod *+* musica.mp3
+Mude o grupo do arquivo 'app.js' para 'devs'.,chgrp devs app.js,chgrp *** app.js
+Conceda leitura para o dono em 'documento.pdf'.,chmod u+r documento.pdf,chmod *+* documento.pdf
+Conceda execução para o grupo em 'dados.csv'.,chmod g+x dados.csv,chmod *+* dados.csv
+Conceda escrita para o grupo em 'app.js'.,chmod g+w app.js,chmod *+* app.js
+Conceda leitura para outros em 'relatorio.doc'.,chmod o+r relatorio.doc,chmod *+* relatorio.doc
+Mude o grupo do arquivo 'dados.csv' para 'usuarios'.,chgrp usuarios dados.csv,chgrp *** dados.csv
+Mude o dono de 'app.js' para 'joao'.,chown joao app.js,chown *** app.js
+Conceda leitura para todos em 'index.html'.,chmod a+r index.html,chmod *+* index.html
+Conceda escrita para o grupo em 'tabela.xlsx'.,chmod g+w tabela.xlsx,chmod *+* tabela.xlsx
+Mude o grupo do arquivo 'relatorio.doc' para 'admins'.,chgrp admins relatorio.doc,chgrp *** relatorio.doc
+Conceda leitura para o grupo em 'imagem.png'.,chmod g+r imagem.png,chmod *+* imagem.png
+Conceda escrita para o dono em 'script.py'.,chmod u+w script.py,chmod *+* script.py
+Conceda execução para o dono em 'app.js'.,chmod u+x app.js,chmod *+* app.js
+Conceda escrita para todos em 'main.c'.,chmod a+w main.c,chmod *+* main.c
+Mude o dono de 'video.mp4' para 'carlos'.,chown carlos video.mp4,chown *** video.mp4
+Conceda leitura para outros em 'tabela.xlsx'.,chmod o+r tabela.xlsx,chmod *+* tabela.xlsx
+Conceda execução para o dono em 'main.c'.,chmod u+x main.c,chmod *+* main.c
+Mude o grupo do arquivo 'programa.exe' para 'grupo1'.,chgrp grupo1 programa.exe,chgrp *** programa.exe
+Conceda execução para o grupo em 'musica.mp3'.,chmod g+x musica.mp3,chmod *+* musica.mp3
+Mude o dono de 'dados.csv' para 'admin'.,chown admin dados.csv,chown *** dados.csv
+Conceda leitura para o dono em 'run.sh'.,chmod u+r run.sh,chmod *+* run.sh
+Conceda leitura para outros em 'config.cfg'.,chmod o+r config.cfg,chmod *+* config.cfg
+Conceda leitura para o grupo em 'script.py'.,chmod g+r script.py,chmod *+* script.py
+Mude o grupo do arquivo 'musica.mp3' para 'grupo2'.,chgrp grupo2 musica.mp3,chgrp *** musica.mp3
+Mude o dono de 'imagem.png' para 'ana'.,chown ana imagem.png,chown *** imagem.png
+Conceda execução para todos em 'relatorio.doc'.,chmod a+x relatorio.doc,chmod *+* relatorio.doc
+Mude o grupo do arquivo 'run.sh' para 'devs'.,chgrp devs run.sh,chgrp *** run.sh
+Conceda escrita para o grupo em 'documento.pdf'.,chmod g+w documento.pdf,chmod *+* documento.pdf
+Conceda leitura para todos em 'tabela.xlsx'.,chmod a+r tabela.xlsx,chmod *+* tabela.xlsx
+Conceda execução para outros em 'index.html'.,chmod o+x index.html,chmod *+* index.html
+Mude o dono de 'programa.exe' para 'lucas'.,chown lucas programa.exe,chown *** programa.exe
+Conceda execução para o dono em 'relatorio.doc'.,chmod u+x relatorio.doc,chmod *+* relatorio.doc
+Mude o grupo do arquivo 'index.html' para 'grupo1'.,chgrp grupo1 index.html,chgrp *** index.html
+Mude o dono de 'main.c' para 'maria'.,chown maria main.c,chown *** main.c
+Conceda escrita para outros em 'main.c'.,chmod o+w main.c,chmod *+* main.c
+Conceda execução para todos em 'app.js'.,chmod a+x app.js,chmod *+* app.js
+Conceda leitura para o dono em 'video.mp4'.,chmod u+r video.mp4,chmod *+* video.mp4
+Mude o grupo do arquivo 'main.c' para 'grupo2'.,chgrp grupo2 main.c,chgrp *** main.c
+Conceda execução para o grupo em 'relatorio.doc'.,chmod g+x relatorio.doc,chmod *+* relatorio.doc
+Conceda escrita para todos em 'tabela.xlsx'.,chmod a+w tabela.xlsx,chmod *+* tabela.xlsx
+Mude o dono de 'arquivo.txt' para 'ana'.,chown ana arquivo.txt,chown *** arquivo.txt
+Conceda leitura para o grupo em 'tabela.xlsx'.,chmod g+r tabela.xlsx,chmod *+* tabela.xlsx
+Conceda leitura para o dono em 'app.js'.,chmod u+r app.js,chmod *+* app.js
+Conceda escrita para o grupo em 'programa.exe'.,chmod g+w programa.exe,chmod *+* programa.exe
+Conceda escrita para o dono em 'config.cfg'.,chmod u+w config.cfg,chmod *+* config.cfg
+Conceda execução para outros em 'programa.exe'.,chmod o+x programa.exe,chmod *+* programa.exe
+Mude o grupo do arquivo 'script.py' para 'testers'.,chgrp testers script.py,chgrp *** script.py
+Conceda leitura para outros em 'musica.mp3'.,chmod o+r musica.mp3,chmod *+* musica.mp3
+Mude o dono de 'relatorio.doc' para 'joao'.,chown joao relatorio.doc,chown *** relatorio.doc
+Mude o grupo do arquivo 'video.mp4' para 'admins'.,chgrp admins video.mp4,chgrp *** video.mp4
+Mude o dono de 'tabela.xlsx' para 'ana'.,chown ana tabela.xlsx,chown *** tabela.xlsx
+Mude o grupo do arquivo 'documento.pdf' para 'grupo1'.,chgrp grupo1 documento.pdf,chgrp *** documento.pdf
+Conceda escrita para o grupo em 'run.sh'.,chmod g+w run.sh,chmod *+* run.sh
+Conceda leitura para o dono em 'main.c'.,chmod u+r main.c,chmod *+* main.c
+Conceda execução para o grupo em 'video.mp4'.,chmod g+x video.mp4,chmod *+* video.mp4
+Conceda execução para outros em 'dados.csv'.,chmod o+x dados.csv,chmod *+* dados.csv
+Conceda leitura para todos em 'app.js'.,chmod a+r app.js,chmod *+* app.js
+Conceda escrita para o dono em 'documento.pdf'.,chmod u+w documento.pdf,chmod *+* documento.pdf
+Conceda leitura para o grupo em 'video.mp4'.,chmod g+r video.mp4,chmod *+* video.mp4
+Conceda escrita para outros em 'imagem.png'.,chmod o+w imagem.png,chmod *+* imagem.png
+Mude o dono de 'documento.pdf' para 'carlos'.,chown carlos documento.pdf,chown *** documento.pdf
+Mude o grupo do arquivo 'arquivo.txt' para 'devs'.,chgrp devs arquivo.txt,chgrp *** arquivo.txt
+Conceda execução para o dono em 'musica.mp3'.,chmod u+x musica.mp3,chmod *+* musica.mp3
+Conceda execução para o grupo em 'index.html'.,chmod g+x index.html,chmod *+* index.html
