@@ -12,7 +12,6 @@ MAGENTA = '\033[95m'
 CYAN = '\033[96m'
 BRANCO = '\033[97m'
 LARANJA  = '\033[38;5;208m'
-BOLD = '\033[1m'
 RESET = '\033[0m'
 
 # Número máximo de perguntas por execução
@@ -142,7 +141,7 @@ def quiz(perguntas):
 
         if i != limite:
             try:
-                input(f"{BOLD}Pressione ENTER para continuar...{RESET}")
+                input(f"Pressione ENTER para continuar...{RESET}")
             except KeyboardInterrupt:
                 print(f"\n{VERMELHO}Execução interrompida pelo usuário. Saindo...{RESET}\n")
                 mostrar_resultado(nome, acertos, erros, limite, total_csv)
