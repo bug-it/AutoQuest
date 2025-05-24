@@ -37,7 +37,7 @@ def mostrar_banner_e_conceitos():
     print(f"  {RESET}• {AMARELO}w{BRANCO} = {AMARELO}escrita {BRANCO}({AMARELO}write{BRANCO}){RESET}")
     print(f"  {RESET}• {VERMELHO}x{BRANCO} = {VERMELHO}execução {BRANCO}({VERMELHO}execute{BRANCO}){RESET}\n")
 
-    print(f"{RESET} Exemplo: -{CYAN}r{AMARELO}w{VERMELHO}x{CYAN}r{RESET}-{VERMELHO}x{CYAN}r{RESET}-- ( Usuário: {CYAN}r{AMARELO}w{VERMELHO}x{RESET} | Grupo: {CYAN}r{RESET}-{VERMELHO}x{RESET} | Outros: {CYAN}r{RESET}--)\n")
+    print(f"{RESET}  Exemplo: -{CYAN}r{AMARELO}w{VERMELHO}x{CYAN}r{RESET}-{VERMELHO}x{CYAN}r{RESET}-- ( Usuário: {CYAN}r{AMARELO}w{VERMELHO}x{RESET} | Grupo: {CYAN}r{RESET}-{VERMELHO}x{RESET} | Outros: {CYAN}r{RESET}--)\n")
 
     print(f"{BRANCO}🔢{AZUL} Permissões Numéricas:{RESET}")
     print(f"  {RESET}• {MAGENTA}7{RESET} = {CYAN}r{AMARELO}w{VERMELHO}x{RESET} ({MAGENTA}4{RESET}+{MAGENTA}2{RESET}+{MAGENTA}1{RESET}) → {CYAN}leitura{RESET} + {AMARELO}escrita{RESET} + {VERMELHO}execução")
