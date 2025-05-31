@@ -46,7 +46,7 @@ Dê permissão 777 para 'publico'.,chmod 777 publico,chmod *** publico
 Mude o grupo do arquivo 'dados.csv' para 'users'.,chgrp users dados.csv,chgrp ***** dados.csv
 Remova permissão de escrita para o grupo em 'relatorio.txt'.,chmod g-w relatorio.txt,chmod *-* relatorio.txt
 Adicione permissão de leitura para o dono em 'secreto.key'.,chmod u+r secreto.key,chmod *+* secreto.key
-O dono deve poder ler, escrever e executar 'script.sh'.,chmod u+rwx script.sh,chmod *+*** script.sh
+O dono deve poder ler - escrever - executar 'script.sh'.,chmod u+rwx script.sh,chmod *+*** script.sh
 Permita leitura e execução para o grupo em 'bin'.,chmod g+rx bin,chmod *+** bin
 Remova permissão de escrita para outros em 'dados.txt'.,chmod o-w dados.txt,chmod *-* dados.txt
 Adicione permissão de leitura para todos em 'arquivo.txt'.,chmod a+r arquivo.txt,chmod *+* arquivo.txt
